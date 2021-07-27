@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.Client_PageController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="320.0">
+         <children>
+            <Button layoutX="20.0" layoutY="130.0" mnemonicParsing="false" onAction="#check_balance" text="Check Balance" />
+            <Button layoutX="20.0" layoutY="69.0" mnemonicParsing="false" onAction="#withdraw" text="Withdraw" />
+            <Button layoutX="19.0" layoutY="164.0" mnemonicParsing="false" onAction="#buy_online" text="Online Purchase" />
+            <Button layoutX="20.0" layoutY="100.0" mnemonicParsing="false" onAction="#deposit" text="Deposit" />
+            <Button layoutX="252.0" layoutY="164.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+            <TextField fx:id="amount" layoutX="88.0" layoutY="34.0" promptText="Enter Amount" />
+            <Label layoutX="107.0" layoutY="14.0" text="Customer Page" textAlignment="CENTER" textFill="#670480">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label fx:id="balance" layoutX="141.0" layoutY="73.0" prefHeight="17.0" prefWidth="149.0" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
