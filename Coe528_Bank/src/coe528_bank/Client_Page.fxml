@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528_bank.Client_PageController">
+   <children>
+      <Button layoutX="20.0" layoutY="130.0" mnemonicParsing="false" onAction="#check_balance" text="Check Balance" />
+      <Button layoutX="20.0" layoutY="69.0" mnemonicParsing="false" onAction="#withdraw" text="Withdraw" />
+      <Button layoutX="19.0" layoutY="164.0" mnemonicParsing="false" onAction="#buy_online" text="Online Purchase" />
+      <Button layoutX="20.0" layoutY="100.0" mnemonicParsing="false" onAction="#deposit" text="Deposit" />
+      <Button layoutX="252.0" layoutY="164.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+      <TextField fx:id="amount" layoutX="88.0" layoutY="31.0" promptText="Enter Amount" />
+      <Label layoutX="119.0" layoutY="14.0" text="Customer Page" />
+      <Label fx:id="balance" layoutX="141.0" layoutY="73.0" prefHeight="17.0" prefWidth="149.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

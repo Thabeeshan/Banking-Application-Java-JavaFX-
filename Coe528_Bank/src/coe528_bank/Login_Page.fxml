@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528_bank.Login_PageController">
+    <children>
+      <TextField fx:id="username" layoutX="86.0" layoutY="41.0" promptText="Username" />
+      <PasswordField fx:id="password" layoutX="86.0" layoutY="75.0" promptText="Password" />
+      <ChoiceBox fx:id="usermenu" layoutX="86.0" layoutY="106.0" prefWidth="150.0" />
+        <Button fx:id="button" layoutX="137.0" layoutY="138.0" onAction="#Login" text="Login" />
+      <Label fx:id="title" layoutX="73.0" layoutY="14.0" text="Banking Application" textFill="#0508d3">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Status" layoutX="86.0" layoutY="169.0" prefHeight="17.0" prefWidth="150.0" textAlignment="CENTER" />
+    </children>
+</AnchorPane>
